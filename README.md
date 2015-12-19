@@ -1,5 +1,5 @@
 
-reflux-waitfor
+reflux-waitfor [![Build Status](https://travis-ci.org/dtinth/reflux-waitfor.svg?branch=master)](https://travis-ci.org/dtinth/reflux-waitfor)
 ==============
 
 This project implements `Reflux.waitFor(AnotherStore)` that works like [Dispatcher.waitFor()](https://facebook.github.io/flux/docs/dispatcher.html).
