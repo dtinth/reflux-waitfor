@@ -1,0 +1,19 @@
+{
+  "name": "reflux-waitfor",
+  "version": "1.0.0",
+  "description": "Flux-like waitFor() for Reflux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "devDependencies": {
+    "reflux-core": "^0.3.0",
+    "standard": "^5.4.1",
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "invariant": "^2.2.0"
+  }
+}
