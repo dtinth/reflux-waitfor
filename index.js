@@ -25,7 +25,9 @@ function override (object, method, f) {
 // work.
 //
 exports.install = function (Reflux) {
-  //
+  invariant(!Reflux.waitFor, 'reflux-waitfor: ' +
+    'Reflux.waitFor() already exists.'
+  )
 
   // This stack is used to keep track of all active triggers.
   //

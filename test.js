@@ -68,3 +68,8 @@ test('waitFor should assert that another store is actually interested', assert =
   assert.throws(() => Actions.test.trigger())
   assert.end()
 })
+
+test('prevents double installation', assert => {
+  assert.throws(() => require('./').install(Reflux))
+  assert.end()
+})
